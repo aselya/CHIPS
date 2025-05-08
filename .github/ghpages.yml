@@ -42,6 +42,9 @@ jobs:
       uses: martinthomson/i-d-template@v1
       with:
         token: ${{ github.token }}
+        path: |
+          spec/draft-*.html
+          spec/draft-*.txt
 
     - name: "Update GitHub Pages"
       uses: martinthomson/i-d-template@v1
