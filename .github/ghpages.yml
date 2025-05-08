@@ -54,5 +54,5 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         path: |
-          draft-*.html
-          draft-*.txt
+          spec/draft-*.html
+          spec/draft-*.txt
